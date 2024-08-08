@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free currency converter</title>
+</head>
+<link rel="stylesheet" href="currency.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
+<body>
+
+
+
+    <!-- for entering the amout  -->
+
+    <div class="main-container">
+        <h1>CURRENCY CONVERTER</h1>
+
+        <div class="sub-container">
+
+            <div class="amount">
+                <input type="text" placeholder="Enter amount here" id="amount-input" />
+            </div>
+
+
+            <div class="dropdown">
+
+                <div class="from both">
+                    <p class="from-to">From</p>
+                    <img src="https://flagsapi.com/US/flat/64.png" class="flagimg" id="from">
+                    <div class="select-container">
+
+                        <select name="from" class="select-from">
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <i class="fa-solid fa-arrow-right-arrow-left" class="exchange-icon"></i>
+
+
+                <div class="to both">
+                    <p class="from-to">To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png" class="flagimg" id="to">
+                    <div class="select-container">
+
+                        <select name="to" class="select-from">
+
+                        </select>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="value">
+
+                <p id="mssg">1 USD = 80 INR</p>
+                <button id="button-convert">Exchange Value</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="currency.js"></script>
+
+</body>
+
+</html>
